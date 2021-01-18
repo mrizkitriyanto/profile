@@ -32,6 +32,7 @@
 @media screen and (min-width: 768px) {
     :root {
         --big-font-size: 10.5rem;
+        --semi-font-size: 9rem;
         --h2-font-size: 2rem;
         --normal-font-size: 1rem;
         --small-font-size: .875rem;
@@ -240,7 +241,7 @@ img {
 }
 .home__title{
     align-self: flex-end;
-    font-size: var(--big-font-size);
+    font-size: 6.5rem;
     line-height: .8;
 }
 .home__title .H .E{
@@ -656,6 +657,13 @@ img {
 }
 
 @media screen and (min-width: 1024px){
+
+    .home__title{
+        align-self: flex-end;
+        font-size: var(--big-font-size);
+        line-height: .8;
+    }
+
     .bd-grid{
         margin-left: auto;
         margin-right: auto;
