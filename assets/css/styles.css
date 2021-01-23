@@ -412,6 +412,7 @@ img {
 } */
 .contact__container{
     row-gap: 2rem;
+    margin-bottom: 10rem;
 }
 .contact__subtitle{
     font-size: var(--normal-font-size);
@@ -423,7 +424,7 @@ img {
     margin-bottom: var(--mb-2);
     font-weight: bold;
 }
-.contact__inputs{
+/* .contact__inputs{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     column-gap:var(--mb-2);
@@ -450,7 +451,7 @@ img {
 }
 .contact__button:hover{
     filter: blur(1px);
-}
+} */
 
 /* FOOTER */
 .footer{
